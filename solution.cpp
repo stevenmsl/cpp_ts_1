@@ -15,8 +15,9 @@ using namespace std;
 
 /*takeaways
   - scan the array exactly once
-  - use a hash table where the key is the value of the number
-    and value is the index if the number
+  - use a hash table with the key being
+    the value of the element and value
+    being the index of the element
 */
 
 vector<int> Solution::twoSum(vector<int> &nums, int target)
